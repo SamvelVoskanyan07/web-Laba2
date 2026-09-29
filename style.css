@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+#main-header {
+    width: 100%;
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px 0;
+}
+
+.header-container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+#logo {
+    font-weight: bold;
+    background: #3498db;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+#top-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+#top-nav a:hover {
+    text-decoration: underline;
+}
+
+.content-container {
+    max-width: 960px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.block-section {
+    margin-bottom: 30px;
+}
+
+.lab-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.lab-table th, .lab-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.lab-table th {
+    background-color: #34495e;
+    color: white;
+}
+
+.lab-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.lab-table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+#main-footer {
+    width: 100%;
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
